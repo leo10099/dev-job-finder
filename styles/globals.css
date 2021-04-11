@@ -48,8 +48,16 @@ body {
 }
 
 a {
-  color: inherit;
+  border-bottom: 2px;
+  border-color: transparent;
+  transition: all 0.3 ease;
+  color: var(--purple30);
   text-decoration: none;
+}
+
+a:hover {
+  border-color: var(--purple30);
+  padding-bottom: 0.4rem;
 }
 
 ul,
